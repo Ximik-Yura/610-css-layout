@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'DotGothic16', sans-serif;
+    --main-color: black;
+}
+
+header .logo {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+header .menu a {
+display: block;
+text-transform: uppercase;
+text-decoration: none;
+color: var(--main-color);
+}
+
+header .menu a:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 500px) {
+header nav {
+    display: flex;
+}
+}
